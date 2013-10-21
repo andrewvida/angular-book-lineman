@@ -63,11 +63,11 @@ module.exports = require(process.env['LINEMAN_MAIN']).config.extend('application
       sourcesContent: true
     },
     js: {
-      src: ["<%= files.js.vendor %>", "<%= files.js.app %>", "<%= files.coffee.generated %>", "<%= files.ngtemplates.dest %>"],
+      src: ["<%= files.js.vendor %>","<%= files.coffee.generated %>", "<%= files.js.app %>", "<%= files.ngtemplates.dest %>"],
       dest: "<%= files.js.concatenated %>"
     },
     spec: {
-      src: ["<%= files.js.specHelpers %>", "<%= files.coffee.generatedSpecHelpers %>", "<%= files.js.spec %>", "<%= files.coffee.generatedSpec %>"],
+      src: ["<%= files.coffee.generatedSpecHelpers %>", "<%= files.coffee.generatedSpec %>", "<%= files.js.specHelpers %>", "<%= files.js.spec %>"],
       dest: "<%= files.js.concatenatedSpec %>"
     },
     css: {

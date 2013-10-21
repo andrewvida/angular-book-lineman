@@ -15,7 +15,7 @@ describe('my angular app', function () {
       ptor.findElement(
         protractor.By.repeater('book in books').row(1)).
         getText().then(function(text) {
-          expect(text).toEqual('Great Expectations by Dickens');
+          expect(text).toEqual('Great Expectations by Andy');
         });
 
       ptor.findElement(

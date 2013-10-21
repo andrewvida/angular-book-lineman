@@ -1,11 +1,11 @@
 {
-  "name": "lineman-angular-template",
+  "name": "lineman-angular-template-andy",
   "title": "An HTML/JS/CSS app using Angular.JS",
   "version": "0.0.1",
   "private": true,
   "author": {
-    "name": "David Mosher",
-    "company": "DAVEMO Consulting"
+    "name": "Andrew Vida",
+    "company": "Test Double"
   },
   "dependencies": {
     "grunt-angular-templates": "0.3.8",
