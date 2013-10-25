@@ -1,6 +1,6 @@
 # A Lineman JS Template using Angular
 
-[![Build Status](https://travis-ci.org/andrewvida/angular-book-lineman.png?branch=master)](https://travis-ci.org/andrewvida/angular-book-lineman)
+[![Build Status](https://travis-ci.org/andrewvida/angular-codemash-lineman.png?branch=master)](https://travis-ci.org/andrewvida/angular-codemash-lineman)
 
 This is a project template for Angular JS applications using [Lineman](http://www.linemanjs.com).
 
