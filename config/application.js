@@ -67,7 +67,7 @@ module.exports = require(process.env['LINEMAN_MAIN']).config.extend('application
       dest: "<%= files.js.concatenated %>"
     },
     spec: {
-      src: ["<%= files.coffee.generatedSpecHelpers %>", "<%= files.coffee.generatedSpec %>", "<%= files.js.specHelpers %>", "<%= files.js.spec %>"],
+      src: ["<%= files.js.specHelpers %>", "<%= files.coffee.generatedSpecHelpers %>", "<%= files.js.spec %>", "<%= files.coffee.generatedSpec %>"],
       dest: "<%= files.js.concatenatedSpec %>"
     },
     css: {
