@@ -1,5 +1,8 @@
-<ul class="sessions">
-  <li class="panel" ng-repeat="session in sessions">
-    {{ session.Title }} by {{ session.SpeakerName }}
-  </li>
-</ul>
+<div class="sessions">
+  <div class="panel" ng-repeat="session in sessions">
+    <p ng-show="hasTimeslot(session)">{{ session.Start }} - {{ session.End }}</p>
+    <p><strong>{{ session.Title }} by {{ session.SpeakerName }}</strong></p>
+    <p>{{ session.Abstract }}</p>
+    <p>{{ session.SpeakerName }}</p>
+  </div>
+</div>
