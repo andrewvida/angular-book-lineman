@@ -2,31 +2,18 @@
 <html ng-app="app">
 <head>
   <title><%= pkg.name %></title>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
   <link rel="stylesheet" type="text/css" href="/css/app.css" media="all" />
 </head>
-<body>
-  <nav class="top-bar">
-    <ul class="title-area">
-      <!-- Title Area -->
-      <li class="name">
-        <h1><a href="#">CodeMash 2.0.1.4</a></h1>
-      </li>
-      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-    <section class="top-bar-section">
-      <!-- Left Nav Section -->
-      <ul class="left">
-        <li class="divider"></li>
-        <li class="active"><a href="#">Item 1</a></li>
-        <li class="divider"></li>
-        <li><a href="#">Main Item 2</a></li>
-        <li class="divider"></li>
-        </li>
-        <li class="divider"></li>
-      </ul>
-    </section>
-  </nav>
+<body data-page-name="home">
+  <a id="right-menu" href="#right-menu"><img src="img/home-menu.png" class="menu" /></a>
+    <div id="sidr-right" class="sidr right">
+      <img src="img/close.png" id="close" />
+      <p class="menu1">
+        <a href="sessions">Sessions</a><br/>
+        <a href="speakers">Speakers</a><br/>
+      </p>
+    </div>
   <div class="row">
     <div class="large-12">
       <h1>Codemash 2014 Scheduler</h1>
@@ -37,6 +24,6 @@
   <script type="text/javascript" src="/js/app.js"></script>
   <script>
   $(document).foundation();
-</script>
+  </script>
 </body>
 </html>
