@@ -1,0 +1,7 @@
+<ul class="speakers">
+  Search: <input ng-model="searchText">
+  <li class="panel" ng-repeat="speaker in speakers | filter:{Name:searchText}">
+    {{ speaker.Name }} - {{ speaker.TwitterHandle }}
+
+  </li>
+</ul>
